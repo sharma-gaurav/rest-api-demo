@@ -1,7 +1,7 @@
 package rest.demo.app
 import grails.rest.*
 
-@Resource(uri='/books')
+@Resource()
 class Book {
 
     String title
